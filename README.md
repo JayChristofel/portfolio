@@ -22,7 +22,6 @@
   </p>
   
   <p align="center">
-    <a href="#-demo">Demo</a> •
     <a href="#-features">Features</a> •
     <a href="#-tech-stack">Tech Stack</a> •
     <a href="#-installation">Installation</a> •
@@ -33,12 +32,8 @@
 
 ---
 
-## 🎯 Demo
-
-> **Live Demo:** [View Portfolio](https://jaychristofel-portfolio.vercel.app)
-
 <div align="center">
-  <img src="./public/projects/portfolio.png.png" alt="Portfolio Preview" width="800" />
+  <img src="./public/projects/portfolio.png" alt="Portfolio Preview" width="800" />
 </div>
 
 ## ✨ Features
