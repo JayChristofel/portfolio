@@ -35,10 +35,10 @@
 
 ## 🎯 Demo
 
-> **Live Demo:** [View Portfolio](https://jaychristofel-portfolio.vercel.app) _(Coming Soon)_
+> **Live Demo:** [View Portfolio](https://jaychristofel-portfolio.vercel.app)
 
 <div align="center">
-  <img src="./public/demo/portfolio-preview.png" alt="Portfolio Preview" width="800" />
+  <img src="./public/projects/portfolio.png.png" alt="Portfolio Preview" width="800" />
 </div>
 
 ## ✨ Features
@@ -116,40 +116,10 @@ npm run preview
 
 This project can be easily deployed to various platforms:
 
-### Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jaychristofel/portfolio)
-
-### Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jaychristofel/portfolio)
-
 ### Manual Deployment
 
 1. Run `npm run build`
-2. Upload the `dist` folder to your hosting provider
-
-## 📁 Project Structure
-
-```
-portfolio/
-├── public/
-│   ├── avatars/           # Profile images
-│   ├── projects/          # Project screenshots
-│   └── favicon.svg        # Site favicon
-├── src/
-│   ├── components/        # Reusable UI components
-│   │   ├── ui/           # shadcn/ui components
-│   │   └── react-bits/   # Custom components
-│   ├── contexts/         # React contexts
-│   ├── hooks/            # Custom React hooks
-│   ├── lib/              # Utility functions
-│   ├── pages/            # Page components
-│   └── config/           # Configuration files
-├── tailwind.config.js    # Tailwind CSS configuration
-├── vite.config.ts        # Vite configuration
-└── package.json          # Dependencies and scripts
-```
+2. Upload the `build` folder to your hosting provider
 
 ## 🤝 Contributing
 
@@ -171,6 +141,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Lucide](https://lucide.dev/) - For the amazing icons
 - [Framer Motion](https://www.framer.com/motion/) - For smooth animations
 - [Tailwind CSS](https://tailwindcss.com/) - For the utility-first CSS framework
+- [React-Bits](https://tailwindcss.com/) - For the animate components
 
 ---
 
