@@ -13,7 +13,6 @@ import {
   CarouselItem,
   type CarouselApi,
 } from "@/components/ui/carousel";
-import { Link } from "react-router-dom";
 
 // Gallery4 Component and Types
 export interface Gallery4Item {
@@ -37,7 +36,7 @@ const portfolioData = [
     title: "Bank SulutGo",
     description:
       "Redesign the web interface with fresher components but still maintain the web structure.",
-    href: "bsgo.urbanswift.xyz",
+    href: "https://bsgo.urbanswift.xyz",
     image: "./projects/bsgo.png",
     techstack: ["React", "Vite", "Tailwind"],
   },
@@ -46,7 +45,7 @@ const portfolioData = [
     title: "Document Management System",
     description:
       "Document Management System that continues to use the starter kit from Laravel 12.",
-    href: "https://github.com/JayChristofel/DMS-Laravel-12-React-Starter-Kit",
+    href: "https://dms.urbanswift.xyz",
     image:
       "./projects/dms.png",
     techstack: ["Laravel", "Vite", "React", "Tailwind", "SQLite"],
@@ -304,12 +303,12 @@ const Gallery4 = ({
                         ))}
                       </div>
                       <Button variant="outline">
-                        <Link to="{item.href}">
+                        <a href="{item.href}">
                           <div className="flex items-center text-sm text-white">
                             Read more{" "}
                             <ArrowRight className="ml-2 size-5 transition-transform group-hover:translate-x-1 text-white" />
                           </div>
-                        </Link>
+                        </a>
                       </Button>
                     </div>
                   </div>
@@ -887,30 +886,31 @@ export default function IndexPage() {
                               period: "2019 - 2020",
                               location: "Jakarta, Indonesia",
                               points: [
-                                "Designed and implemented user‑friendly web interfaces and conducted regular maintenance.",
-                                "Performed troubleshooting for both desktop and web issues to enhance user experience.",
-                                "Collaborated with cross‑functional teams to ensure seamless integration of visual design elements on the website.",
+                                "Create wireframes, prototypes, and high-fidelity designs to visualize proposed user experiences improvements.",
+                                "Create Web Designs with the designs that have been created visually.",
+                                "Perform regular website maintenance.",
                               ],
                             },
                             {
-                              company: "PT Jaya Teknik Indonesia",
+                              company: "PT Timur Matahari 77 Rent Car",
                               role: "IT Staff",
                               period: "2020 - 2023",
                               location: "Jakarta, Indonesia",
                               points: [
-                                "Developed internal tooling and performed scheduled maintenance tasks.",
-                                "Optimized systems and enhanced security for internal user environments.",
-                                "Supported end‑users with technical issues to maintain productivity.",
+                                "Create wireframes, prototypes, and high-fidelity designs to visualize proposed user experiences improvements.",
+                                "Create Web Designs with the designs that have been created visually.",
+                                "Perform regular website maintenance.",
                               ],
                             },
                             {
                               company: "PT Jaya Teknik Indonesia",
-                              role: "Presentation Staff (Internship)",
+                              role: "Remuneration Staff (Internship)",
                               period: "May 2023 - July 2023",
                               location: "Jakarta, Indonesia",
                               points: [
-                                "Created & customized company presentations and ensured brand consistency.",
-                                "Summarized data/information for business & documentation purposes.",
+                                "Ensure the completeness of employee personal data.",
+                                "Input employee personal data into the company's ERP system.",
+                                "Communicating the completeness of employee personal data to the employee concerned.",
                               ],
                             },
                             {
@@ -919,8 +919,9 @@ export default function IndexPage() {
                               period: "Apr 2024 - Aug 2024",
                               location: "Jakarta, Indonesia",
                               points: [
-                                "Developed competency modules based on module levels for JayaTech.",
-                                "Managed competency tracking & administration in the company ERP system.",
+                                "Design employee training modules according to competency levels.",
+                                "Making modules in the form of powerpoint and video.",
+                                "Inputting employee training administration in the company's ERP system.",
                               ],
                             },
                           ].map((exp) => (
